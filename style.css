@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3; /* Modrý pruh */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 150px; /* Velikost čtvercového loga */
+    height: 150px;
+    object-fit: cover; /* Zajistí, že obrázek vyplní čtverec bez zkreslení */
+    border-radius: 10px; /* Mírně zaoblené rohy loga */
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em; /* Velikost nadpisu školy */
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0056b3;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+.publication-date {
+    font-size: 0.9em;
+    color: #666;
+    text-align: right;
+    font-style: italic;
+}
